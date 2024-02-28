@@ -1,0 +1,25 @@
+span {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.icone {
+    margin-left: 30px;
+    width: 30px;
+}
+
+.circle {
+    margin-left: -10px;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff9900;
+    font-size: 15px;
+    font-weight: 900;
+}

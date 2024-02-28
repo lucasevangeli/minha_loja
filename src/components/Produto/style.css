@@ -1,0 +1,60 @@
+.titulo_produto {
+    padding: 50px;
+    text-align: center;
+}
+
+.container_produto {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Aumentar o espaçamento entre os itens */
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 20px; /* Aumentar o espaçamento à esquerda */
+    margin-right: 20px; /* Aumentar o espaçamento à direita */
+}
+
+.imagem_produto {
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+
+.container_produto li {
+    list-style: none;
+}
+
+.btnAdiciona {
+    border: none;
+    background-color: #000000;
+    color: #ff9900;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btnAdiciona:hover {
+    background-color: #ff9900;
+    color: #000000;
+}
+
+.btnRemover {
+    border: none;
+    background-color: #f80a0a;
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btnRemover:hover {
+    background-color: #db0707;
+}

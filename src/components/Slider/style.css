@@ -1,0 +1,11 @@
+.container_imagem {
+    margin-top: 40px;
+}
+
+
+.img_header {
+    border-radius: 40px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+}
